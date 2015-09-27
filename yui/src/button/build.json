@@ -1,0 +1,10 @@
+{
+  "name": "moodle-atto_matrix-button",
+  "builds": {
+    "moodle-atto_matrix-button": {
+      "jsfiles": [
+        "button.js"
+      ]
+    }
+  }
+}
