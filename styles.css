@@ -10,8 +10,9 @@
 }
 
 .atto_matrix_library button {
-    margin: 0.25%;
     min-width: 12%;
+    padding: 4px 10px;
+    margin: 1px;
 }
 
 #page-admin-setting-atto_matrix_settings .form-defaultinfo {
