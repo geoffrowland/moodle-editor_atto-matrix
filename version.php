@@ -26,8 +26,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2015092800;      // The current plugin version (Date: YYYYMMDDXX).
-$plugin->requires  = 2014050800;      // Requires this Moodle version.
-$plugin->component = 'atto_matrix';   // Full name of the plugin (used for diagnostics).
-$plugin->maturity  = MATURITY_STABLE; // Stable release.
-$plugin->release   = 'v1.0-0';        // This is the first stable release.
+$plugin->version   = 2015092900;        // The current plugin version (Date: YYYYMMDDXX).
+$plugin->requires  = 2014050800;        // Requires this Moodle version.
+$plugin->component = 'atto_matrix';  // Full name of the plugin (used for diagnostics).
+$plugin->maturity = MATURITY_STABLE; // Stable release.
+$plugin->release = 'v1.0-2'; // This is the second stable release.

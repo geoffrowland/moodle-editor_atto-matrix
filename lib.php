@@ -46,7 +46,16 @@ function atto_matrix_strings_for_js() {
                                           'librarygroup6',
                                           'librarygroup7',
                                           'librarygroup8',
-                                          'librarygroup9'),
+                                          'librarygroup9',
+                                          'librarygroup1_title',
+                                          'librarygroup2_title',
+                                          'librarygroup3_title',
+                                          'librarygroup4_title',
+                                          'librarygroup5_title',
+                                          'librarygroup6_title',
+                                          'librarygroup7_title',
+                                          'librarygroup8_title',
+                                          'librarygroup9_title'),
                                     'atto_matrix');
 }
 
@@ -74,38 +83,47 @@ function atto_matrix_params_for_js($elementid, $options, $fpoptions) {
     $library = array(
             'group1' => array(
                 'groupname' => 'librarygroup1',
+                'grouptitle' => 'librarygroup1_title',
                 'elements' => get_config('atto_matrix', 'librarygroup1'),
             ),
             'group2' => array(
                 'groupname' => 'librarygroup2',
+                'grouptitle' => 'librarygroup2_title',
                 'elements' => get_config('atto_matrix', 'librarygroup2'),
             ),
             'group3' => array(
                 'groupname' => 'librarygroup3',
+                'grouptitle' => 'librarygroup3_title',
                 'elements' => get_config('atto_matrix', 'librarygroup3'),
             ),
             'group4' => array(
                 'groupname' => 'librarygroup4',
+                'grouptitle' => 'librarygroup4_title',
                 'elements' => get_config('atto_matrix', 'librarygroup4'),
             ),
             'group5' => array(
                 'groupname' => 'librarygroup5',
+                'grouptitle' => 'librarygroup5_title',
                 'elements' => get_config('atto_matrix', 'librarygroup5'),
             ),
             'group6' => array(
                 'groupname' => 'librarygroup6',
+                'grouptitle' => 'librarygroup6_title',
                 'elements' => get_config('atto_matrix', 'librarygroup6'),
             ),
             'group7' => array(
                 'groupname' => 'librarygroup7',
+                'grouptitle' => 'librarygroup7_title',
                 'elements' => get_config('atto_matrix', 'librarygroup7'),
             ),
             'group8' => array(
                 'groupname' => 'librarygroup8',
+                'grouptitle' => 'librarygroup8_title',
                 'elements' => get_config('atto_matrix', 'librarygroup8'),
             ),
             'group9' => array(
                 'groupname' => 'librarygroup9',
+                'grouptitle' => 'librarygroup9_title',
                 'elements' => get_config('atto_matrix', 'librarygroup9'),
             ));
 
