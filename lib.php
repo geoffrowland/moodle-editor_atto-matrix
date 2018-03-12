@@ -132,3 +132,12 @@ function atto_matrix_params_for_js($elementid, $options, $fpoptions) {
                  'library' => $library,
                  'texdocsurl' => get_docs_url('Using_TeX_Notation'));
 }
+
+/**
+ * Get icon mapping for font-awesome.
+ */
+function atto_matrix_get_fontawesome_icon_map() {
+    return [
+        'atto_matrix:icon' => 'fa-th'
+    ];
+}
